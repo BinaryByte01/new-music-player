@@ -114,7 +114,7 @@ async function displayAlbums() {
 }
 async function main() {
     // get the list of songs
-    await getSongs("songs/bkashmitasongs");
+    await getSongs(`songs/${folder}`);
     playMusic(songs[0], true);
 
     // display all the albums on the page
